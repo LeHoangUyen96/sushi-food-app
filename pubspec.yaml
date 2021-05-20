@@ -1,0 +1,50 @@
+name: sushi_food_app
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: 1.26.0-18.0.pre.209
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  equatable: ^1.2.5
+  flutter_redux: ^0.7.0
+  redux_thunk: ^0.3.0
+  shared_preferences: ^0.5.12+4
+  url_launcher: ^6.0.3
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.9.0"
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/rolls/
+    - assets/images/soups/
+    - assets/images/nigiri/
+    - assets/images/sushi/
+    - assets/icons/

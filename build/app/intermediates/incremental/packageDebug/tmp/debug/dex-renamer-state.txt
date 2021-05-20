@@ -1,0 +1,4 @@
+#Thu May 20 21:52:00 ICT 2021
+base.0=/Users/uyen/Desktop/sushi-food-app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
